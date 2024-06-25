@@ -29,6 +29,19 @@
   </form>
 
 
+  <form action="string.php" method="POST">
+
+    <div class="select_area">
+      <label for="frase1">Digite uma frase:</label>
+      <input type = "text" name="frase1" id="frase1"></input>
+      <label for="frase_subst">Digite a palavra para substituir:</label>
+      <input type="text" name="frase_subst" id="frase_subst"></input>
+      <button class="button-area" type="submit">Enviar</button>
+    </div>
+
+  </form>
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
